@@ -8,6 +8,7 @@ public class Main {
         System.out.println(sub(a,b));
         System.out.println(mul(a,b));
         System.out.println(div(a,b));
+        System.out.println(mod(a,b));
 
     }
 
@@ -25,6 +26,10 @@ public class Main {
 
     public static int div(int a, int b) {
         return a/b;
+    }
+
+    private static int mod(int a, int b) {
+        return  a%b;
     }
 
 }
